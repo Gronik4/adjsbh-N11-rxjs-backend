@@ -1,0 +1,36 @@
+{
+  "name": "adjsbh-n11-rxjs-backend",
+  "version": "1.0.0",
+  "description": "homework rxjs backend",
+  "main": "server.sse.complete.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "forever server.sse.complete.js",
+    "watch": "forever -w server.sse.complete.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gronik4/adjsbh-N11-rxjs-backend.git"
+  },
+  "author": "Gronik4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gronik4/adjsbh-N11-rxjs-backend/issues"
+  },
+  "homepage": "https://github.com/Gronik4/adjsbh-N11-rxjs-backend#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "forever": "^4.0.3",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
